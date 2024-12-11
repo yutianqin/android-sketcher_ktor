@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Pen Colors-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#00FF00</color>
+    <color name="yellow">#FFFF00</color>
+
+    <!--For AppTheme-->
+    <color name="colorPrimary">#FF6200EE</color> <!-- A cool shade of purple -->
+    <color name="colorPrimaryDark">#FF3700B3</color> <!-- Darker shade of primary color -->
+    <color name="colorPrimaryVarient">#FFBB86FC</color> <!-- A variant for status bar -->
+    <color name="colorAccent">#FF03DAC5</color> <!-- A teal accent color -->
+    <color name="colorBackground">#FFFFFFFF</color> <!-- White background color -->
+    <color name="colorRipple">#1F6200EE</color> <!-- Slight opaque ripple of primary color -->
+</resources>

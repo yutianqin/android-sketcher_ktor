@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrushPickerFragment">
+
+    <com.example.androidproject.CustomView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/containerLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:layout_gravity="right|center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutBrush"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/toolbar_background"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/normalBrush"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_edit" />
+
+            <ImageButton
+                android:id="@+id/squareBrush"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/alert_dark_frame" />
+
+            <ImageButton
+                android:id="@+id/circleBrush"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:src="@drawable/black_background" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutSize"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/toolbar_background"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/size1"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/size2"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/size3"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:text="3" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
