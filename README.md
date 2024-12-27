@@ -5,7 +5,6 @@ Android-based drawing app integrated with a Ktor backend server. It allows users
 [Demo Video](https://youtu.be/4CvyDtO7bbQ) <br>
 [Phase 1 Archive](https://youtube.com/shorts/5b43MEPk6EM)
 
-<br>
 
 ### Feature
 ![demo](resource/img/demo_Page_1.png)
